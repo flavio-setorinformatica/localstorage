@@ -1,0 +1,42 @@
+.nome {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-bottom: 1vh;
+}
+.sec {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input {
+  padding: 16px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  background-color: rgb(245, 245, 245);
+  border: none;
+}
+input::placeholder {
+  font-size: 14px;
+}
+input:hover {
+  background-color: rgb(245, 245, 245);
+}
+label {
+  margin-bottom: 2px;
+}
+label:hover {
+  color: green;
+}
+button {
+  padding: 16px;
+  width: 500px;
+  border: none;
+  margin-bottom: 8px;
+}
+button:hover {
+  background-color: #ccc;
+  color: green;
+}
